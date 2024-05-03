@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper.x3n3nnut.js";import{v as s,x as a,z as e,A as n,aY as o,t as c,aZ as r}from"./entry.Yh2omVp3.js";const i={},_={class:"NSettingsPage"};function d(l,f){return c(),s("div",_,[a("section",null,[e(o,null,{default:n(()=>[e(r,{title:"Settings","prepend-icon":"mdi-cog"})]),_:1})])])}const u=t(i,[["render",d]]);export{u as default};

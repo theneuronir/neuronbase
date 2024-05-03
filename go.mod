@@ -1,4 +1,4 @@
-module github.com/pocketbase/pocketbase
+module github.com/theneuronir/neuronbase
 
 go 1.21
 
@@ -19,6 +19,7 @@ require (
 	github.com/labstack/echo/v5 v5.0.0-20230722203903-ec5b858dab61
 	github.com/mattn/go-sqlite3 v1.14.19
 	github.com/pocketbase/dbx v1.10.1
+	github.com/pocketbase/pocketbase v0.0.0-00010101000000-000000000000
 	github.com/pocketbase/tygoja v0.0.0-20231111102932-5420517293f4
 	github.com/spf13/cast v1.6.0
 	github.com/spf13/cobra v1.8.0
@@ -94,3 +95,5 @@ require (
 	modernc.org/strutil v1.2.0 // indirect
 	modernc.org/token v1.1.0 // indirect
 )
+
+replace github.com/pocketbase/pocketbase => github.com/theneuronir/neuronbase v0.0.0-20240503114115-d1cfa7404fe7
